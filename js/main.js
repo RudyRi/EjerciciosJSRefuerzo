@@ -35,3 +35,31 @@ const palindromo = (event) => {
         console.log("Este texto NO es un palindromo")
     }
 }
+
+//Crea una función que tome un array de números y un valor límite,
+//y devuelva un nuevo array con solo los elementos que son mayores que el valor límite.
+const limite = () => {
+    let numeros = [10,9,8,7,6,5,4,3,2,1]
+    let filtrados = []
+    let limite = 5
+    for(let i=0;i<numeros.length;i++){
+        if(numeros[i]>limite){
+            filtrados.push(numeros[i])
+        }
+    }
+    console.log(filtrados)
+}
+
+//Crea una función que tome un array de números y devuelva true si todos los elementos son mayores que 10, y false en caso contrario.
+
+const mayorDiez = () => {
+    let numeros = [10,9,8,7,6,5,4,3,2,1]
+    let filtrados = []
+    let limite = 5
+    for(let i=0;i<numeros.length;i++){
+        if(numeros[i]>limite){
+            filtrados.push(numeros[i])
+        }
+    }
+    console.log(filtrados)
+}
